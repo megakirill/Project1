@@ -13,3 +13,10 @@ def index_page(request):
         'menu': get_menu_context(),
     }
     return render(request, 'pages/index.html', context)
+def add_page(request):
+    context = {
+        'pagename': 'Главная',
+        'author': 'балбесы',
+        'menu': get_menu_context(),
+    }
+    return render(request, 'pages/index.html', context)
