@@ -15,9 +15,9 @@ def add_page(request):
     context = {
         'menu': get_menu_context(),
     }
-    return render(request, 'pages/index.html', context)
+    return render(request, 'pages/add.page.html', context)
 def map_page(request):
     context = {
         'menu': get_menu_context(),
     }
-    return  render(request, 'pages/map.html', context)
+    return render(request, 'pages/map.html', context)
