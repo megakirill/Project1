@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+{% include 'base/base.html' %}
+
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>2GIS Map API</title>
         <meta name="description" content="A single marker example" />
     </head>
     <body>
-
         <div id="container"></div>
         <script type="text/javascript" src="https://mapgl.2gis.com/api/js/v1%22%3E"></script>
         <script type="text/javascript">
@@ -20,7 +19,7 @@
                 coordinates: [55.4507, 37.3656],
             });
         </script>
-        <style type="text/css">>
+        <style type="text/css">
             html,
             body,
             #container {
